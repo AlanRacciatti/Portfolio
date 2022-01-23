@@ -1,0 +1,140 @@
+.NavbarItems {
+    background: #323437;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.navbar-heading {
+    color: #D1D0C5;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.media-item {
+    margin: 0 5px;
+    font-size: 30px;
+    color: #D1D0C5;
+}
+
+.navbar-media-mobile {
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.navbar-media-desktop {
+    display: none;
+}
+
+.heading-link {
+    text-decoration: none;
+    color: #D1D0C5;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.nav-menu.active {
+    background: #323437;
+    left: 0;
+    height: 100vh;
+    opacity: 1;
+    transition: all 1s ease;
+    z-index: 1;
+}
+
+.nav-links {
+    color: #D1D0C5;
+    text-decoration: none;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+
+.nav-links:hover {
+    border-radius: 0;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.home-icon {
+    color: #D1D0C5;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.fa-bars {
+    color: #D1D0C5;
+}
+
+.fa-times {
+    color: #D1D0C5;
+}
+
+@media screen and (min-width: 720px) {
+    .home-icon {
+        width: 150px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .NavbarItems {
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .nav-links {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-links:hover {
+        background-color: #D1D0C5;
+        color: #323437;
+        border-radius: 4px;
+        transition: all .2s ease-out;
+    }
+
+    .nav-menu.active {
+        height: auto;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .navbar-media-desktop {
+        display: flex;
+        align-items: center;
+        width: 150px;
+    }
+
+    .navbar-media-mobile {
+        display: none;
+    }
+}

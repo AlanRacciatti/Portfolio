@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    top: 2rem;
+    justify-content: space-between;
+}
+
+.type-writer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #E2B714;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #D1D0C5
+}
+
+@media screen and (min-width: 720px) {
+
+    .home {
+        position: relative;
+        top: 3rem;
+    }
+
+    .type-write {
+        font-size: 3rem;
+    }
+
+    .home-heading {
+        font-size: 4rem;
+    }
+
+    .button-container {
+        flex-direction: row;
+    }
+}
