@@ -1,8 +1,6 @@
 import React from 'react';
 import './Home.css';
 import TypeWriter from 'typewriter-effect';
-import Button from './Button/Button';
-import { ButtonItems } from './Button/ButtonItems';
 
 const Home = () => {
   return (
@@ -30,13 +28,6 @@ const Home = () => {
             }}
           />
         </div>
-      </div>
-      <div className='button-container'>
-        {ButtonItems.map((item, index) => {
-          return (
-            <Button key={index} title={item.title} url={item.url} />
-          )
-        })}
       </div>
     </div>
   );
