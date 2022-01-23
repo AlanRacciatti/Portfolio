@@ -1,0 +1,22 @@
+.ghost-button {
+    background-color: #323437;
+    color: #D1D0C5;
+    border: 1px solid #D1D0C5;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .3s;
+    transition-property: color, background-color;
+}
+
+.ghost-button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+@media screen and (min-width: 720px) {
+    .ghost-button {
+        margin: 10px 0px;
+    }
+} 
