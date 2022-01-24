@@ -1,0 +1,23 @@
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.service-icon {
+    color: #D1D0C5;
+}
+
+.service-title {
+    color: #D1D0C5;
+}
+
+.service-text {
+    color: #D1D0C5;
+    width: 200px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import TypeWriter from 'typewriter-effect';
 import AboutSection from './AboutSection/AboutSection';
+import Services from './Services/Services';
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         </div>
       </div>
       <AboutSection />
+      <Services />
     </div>
   );
 };
