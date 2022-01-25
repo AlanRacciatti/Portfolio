@@ -1,0 +1,18 @@
+.projects-section-container {
+    margin-top: 5em;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.projects-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+@media screen and (min-width: 1024px) {
+    .projects-cards {
+        flex-direction: row;
+    }
+}

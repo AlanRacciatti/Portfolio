@@ -3,6 +3,7 @@ import './Home.css';
 import TypeWriter from 'typewriter-effect';
 import AboutSection from './AboutSection/AboutSection';
 import Services from './Services/Services';
+import ProjectsSection from './ProjectsSection/ProjectsSection';
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
       </div>
       <AboutSection />
       <Services />
+      <ProjectsSection />
     </div>
   );
 };

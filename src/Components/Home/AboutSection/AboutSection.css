@@ -1,8 +1,3 @@
-.about-heading,
-.about-heading-big {
-    color: #D1D0C5;
-}
-
 .about-heading {
     font-weight: 200;
 }
@@ -16,9 +11,7 @@
 }
 
 .about-section-container {
-    position: relative;
-    top: 2em;
-    margin: 0 20px
+    margin: 2em 20px 0
 }
 
 .about-img {
@@ -51,7 +44,7 @@
 
 @media screen and (min-width: 720px) {
     .about-section-container {
-        top: 5em;
+        margin-top: 5em;
         display: flex;
         align-items: center;
         justify-content: center;

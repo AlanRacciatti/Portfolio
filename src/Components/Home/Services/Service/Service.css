@@ -6,16 +6,11 @@
     margin-top: 15px;
 }
 
-.service-icon {
-    color: #D1D0C5;
-}
-
 .service-title {
-    color: #D1D0C5;
+    font-weight: normal;
 }
 
 .service-text {
-    color: #D1D0C5;
     width: 200px;
     font-weight: 200;
     text-align: center;

@@ -1,15 +1,18 @@
 .NavbarItems {
+    position: fixed;
+    top: 0;
     background: #323437;
+    width: 100%;
     height: 80px;
+    z-index: 20;
     display: flex;
     align-items: center;
     font-size: 1.2rem;
     justify-content: space-between;
-    margin: 0 30px;
+    padding: 0 30px;
 }
 
 .navbar-heading {
-    color: #D1D0C5;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -18,7 +21,6 @@
 .media-item {
     margin: 0 5px;
     font-size: 30px;
-    color: #D1D0C5;
 }
 
 .navbar-media-mobile {
@@ -33,7 +35,6 @@
 
 .heading-link {
     text-decoration: none;
-    color: #D1D0C5;
 }
 
 .nav-menu {
@@ -59,7 +60,6 @@
 }
 
 .nav-links {
-    color: #D1D0C5;
     text-decoration: none;
     text-align: center;
     padding: 2rem;
@@ -78,17 +78,8 @@
 }
 
 .home-icon {
-    color: #D1D0C5;
     font-size: 1.2rem;
     text-align: center;
-}
-
-.fa-bars {
-    color: #D1D0C5;
-}
-
-.fa-times {
-    color: #D1D0C5;
 }
 
 @media screen and (min-width: 720px) {
@@ -103,6 +94,7 @@
 
     .NavbarItems {
         margin: 0;
+        padding: 0;
         justify-content: space-around;
     }
 

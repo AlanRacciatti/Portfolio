@@ -1,22 +1,8 @@
-.services-heading,
-.services-heading-big {
-    color: #D1D0C5;
-    text-align: center;
-}
-
 .services-headings-container {
     position: relative;
-    top: 8em;
+    margin-top: 2em;
     width: 100%;
     max-width: 1200px;
-}
-
-.services-heading {
-    font-weight: 200;
-}
-
-.services-heading-big {
-    font-size: 40px;
 }
 
 .service-items-container {

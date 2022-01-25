@@ -2,12 +2,12 @@ import React from 'react';
 import './Services.css';
 import Service from './Service/Service';
 import { ServiceItems } from './Service/ServiceItems';
+import SectionPresentation from '../SectionPresentation/SectionPresentation';
 
 const Services = () => {
   return (
     <div className='services-headings-container'>
-      <h2 className='services-heading'>What can I do?</h2>
-      <h2 className='services-heading-big'>SERVICES</h2>
+      <SectionPresentation heading="What can I do?" mainHeading="SERVICES" cName="text-center"/>
       <div className="service-items-container">
         {ServiceItems.map((item, index) => {
           return (

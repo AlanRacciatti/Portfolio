@@ -1,0 +1,26 @@
+.card-button-container {
+    background-color: #323437;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.card-button-container a {
+    background-color: #323437;
+    transition: all .3s;
+}
+
+.card-button-container i {
+    background-color: #323437;
+    transition: all .3s;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.card-button {
+    border: 1px solid #D1D0C5;
+    background-color: #323437;
+    transition: all .3s;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 50%;
+}

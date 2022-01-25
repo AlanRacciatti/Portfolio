@@ -3,12 +3,16 @@
     flex-direction: column;
     align-items: center;
     height: 70vh;
-    top: 2rem;
+    margin-top: 2rem;
 }
 
 .type-writer {
     text-align: center;
     font-size: 1.5rem;
+    color: #E2B714;
+}
+
+.Typewriter__wrapper {
     color: #E2B714;
 }
 
@@ -18,11 +22,15 @@
     color: #D1D0C5
 }
 
+.home-header {
+    margin-top: 3em;
+}
+
 @media screen and (min-width: 720px) {
 
     .home {
         position: relative;
-        top: 3rem;
+        margin-top: 3rem;
     }
 
     .type-write {
