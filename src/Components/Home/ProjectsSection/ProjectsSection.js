@@ -3,6 +3,7 @@ import './ProjectsSection.css';
 import SectionPresentation from '../SectionPresentation/SectionPresentation';
 import ProjectCard from './ProjectCard/ProjectCard';
 import { projectsItems } from './ProjectsItems';
+import ContainedButton from '../Buttons/ContainedButton/ContainedButton';
 
 const ProjectsSection = () => {
     return (
@@ -15,6 +16,7 @@ const ProjectsSection = () => {
                 )
             })}
             </div>
+            <ContainedButton title="See all my projects!" url="/projects" cName="text-center d-flex m-auto" />
         </div>
     );
 };

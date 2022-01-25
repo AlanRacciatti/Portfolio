@@ -12,6 +12,10 @@
     flex-direction: column;
 }
 
+.service-items {
+    background-color: #232323;
+}
+
 @media screen and (min-width: 720px) {
     .service-items-container {
         flex-direction: row;
