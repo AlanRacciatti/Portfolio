@@ -22,7 +22,7 @@ export const projectsItems = [
         projectDescription: "This dashboard request data from the Hedwig database and shows it with Tables, Charts and Images!"
     },
     {
-        title: "Ethereum Wave Portal",
+        title: "League of Legends NFT Collection",
         url: {
             app: "https://chin-nft-project.web.app/",
             github: "https://github.com/AlanRacciatti/Ethereum-Wave-Portal"
