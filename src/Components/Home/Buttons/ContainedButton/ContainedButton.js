@@ -7,7 +7,7 @@ const Button = (props) => {
 
   let cName = `contained-button ${props.cName}`
   return (
-    <div>
+    <div className='contained-button-container'>
       <Link to={props.url}><button className={cName}>{props.title}</button></Link>
     </div>
   );

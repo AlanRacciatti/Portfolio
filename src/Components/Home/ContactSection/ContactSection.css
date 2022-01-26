@@ -1,0 +1,20 @@
+.contact-section-container {
+    margin-top: 4em;
+    width: 90%;
+    max-width: 800px;
+    padding: 3em;
+    border: 1px solid #D1D0C5;
+    border-radius: 15px;
+}
+
+.contact-presentation {
+    margin-bottom: 2em;
+}
+
+.contact-section-container h2 {
+    background-color: #232323;
+}
+
+.contact-section-container .contained-button-container {
+    background-color: #232323;
+}
