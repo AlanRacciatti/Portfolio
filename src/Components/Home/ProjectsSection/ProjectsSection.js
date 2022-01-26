@@ -10,9 +10,9 @@ const ProjectsSection = () => {
         <div className='projects-section-container'>
             <SectionPresentation heading="Where I spend 80% of my time!" mainHeading="PROJECTS" cName="text-center" /> 
             <div className="projects-cards">
-            {projectsItems.map(project => {
+            {projectsItems.map((project, index) => {
                 return (
-                    <ProjectCard title={project.title} url={project.url} projectDescription={project.projectDescription} img={project.img} />
+                    <ProjectCard key={index} title={project.title} url={project.url} projectDescription={project.projectDescription} img={project.img} />
                 )
             })}
             </div>

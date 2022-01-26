@@ -5,7 +5,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
-
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} exact />
           <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
