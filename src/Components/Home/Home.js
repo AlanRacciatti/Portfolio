@@ -4,7 +4,6 @@ import TypeWriter from 'typewriter-effect';
 import AboutSection from './AboutSection/AboutSection';
 import Services from './Services/Services';
 import ProjectsSection from './ProjectsSection/ProjectsSection';
-import ContactSection from './ContactSection/ContactSection';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -39,7 +38,6 @@ const Home = () => {
       <AboutSection />
       <Services />
       <ProjectsSection />
-      <ContactSection />
     </div>
   );
 };

@@ -16,7 +16,7 @@ i18n
             translation: {
                 navbar: {
                     home: "Home",
-                    about: "About",
+                    services: "Services",
                     projects: "Projects",
                     contact: "Contact",
                     changeLanguage: "Cambiar a español"
@@ -34,7 +34,7 @@ i18n
                         },
                         description: "I started programming at an early age and took it as a hobby. Right now I spend my time making solutions or personal projects. I offer diverse services as a freelancer. Take a look to my projects anytime!",
                         button: {
-                            first: "Read more",
+                            first: "Services",
                             second: "Projects"
                         }
                     },
@@ -93,7 +93,7 @@ i18n
             translation: {
                 navbar: {
                     home: "Inicio",
-                    about: "Acerca de mi",
+                    services: "Servicios",
                     projects: "Proyectos",
                     contact: "Contacto",
                     changeLanguage: "Change to english"
@@ -111,7 +111,7 @@ i18n
                         },
                         description: "Comencé a programar a temprana edad como un pasatiempo. Actualmente me dedico a crear soluciones o proyectos personales. Ofrezco diversos servicios como freelancer. Echale un vistazo a mis proyectos cuando quieras!",
                         button: {
-                            first: "Leer más",
+                            first: "Servicios",
                             second: "Proyectos"
                         }
                     },

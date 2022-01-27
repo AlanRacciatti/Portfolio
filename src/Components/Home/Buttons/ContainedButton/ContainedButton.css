@@ -10,7 +10,22 @@
 }
 
 .contained-button:hover {
-    background-color: #FFFFC5;
+    background-color: #FFF;
+}
+
+.contained-button-link {
+    text-decoration: none;
+    background-color: #D1D0C5;
+    color: #323437;
+    transition: all .3s;
+}
+
+.contained-button:hover .contained-button-link {
+    background-color: #FFF;
+}
+
+.contained-button:hover a {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {

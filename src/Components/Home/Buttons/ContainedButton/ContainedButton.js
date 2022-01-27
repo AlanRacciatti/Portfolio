@@ -5,10 +5,10 @@ import React from 'react';
 
 const Button = (props) => {
 
-  let cName = `contained-button ${props.cName}`
+  let cName = `contained-button ${props.cName ? props.cName : ""}`
   return (
     <div className='contained-button-container'>
-      <Link to={props.url}><button className={cName}>{props.title}</button></Link>
+      <button className={cName}><Link className='contained-button-link' to={props.url}>{props.title}</Link></button>
     </div>
   );
 };

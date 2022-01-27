@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactSection.css';
-import SectionPresentation from '../SectionPresentation/SectionPresentation';
-import ContainedButton from '../Buttons/ContainedButton/ContainedButton';
+import SectionPresentation from '../../Home/SectionPresentation/SectionPresentation';
+import ContainedButton from '../../Home/Buttons/ContainedButton/ContainedButton';
 import { useTranslation } from 'react-i18next'
 
 const ContactSection = () => {
