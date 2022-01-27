@@ -151,7 +151,7 @@ i18n
                             },
                             lolNftCollection: {
                                 title: "Colección NFT League Of Legends",
-                                description: "A través de este sitio los usuarios pueden mirar un NFT aleatorio el cual pueden ver en el marketplace Opensea."
+                                description: "A través de este sitio los usuarios pueden minar un NFT aleatorio el cual pueden ver en el marketplace Opensea."
                             }
                         },
                         projectsLink: "Mira todos mis proyectos!" 
