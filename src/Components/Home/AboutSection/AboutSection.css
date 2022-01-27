@@ -42,7 +42,7 @@
     margin-right: 20px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     .about-section-container {
         margin-top: 5em;
         display: flex;
@@ -64,9 +64,9 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        width: 60%;
+        max-width: 250px;
+        width: 80%;
         border: 1px solid #fff;
-        max-width: 350px;
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
     }

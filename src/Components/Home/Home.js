@@ -5,9 +5,11 @@ import AboutSection from './AboutSection/AboutSection';
 import Services from './Services/Services';
 import ProjectsSection from './ProjectsSection/ProjectsSection';
 import ContactSection from './ContactSection/ContactSection';
-import Footer from '../Footer/Footer';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className='home'>
       <div className='home-header'>
@@ -20,13 +22,13 @@ const Home = () => {
             }} 
             onInit={(typeWrite) => {
               typeWrite
-              .typeString("Full Stack Web Developer")
+              .typeString(t('home.typeWriter.first'))
               .pauseFor(2000)
               .deleteAll()
-              .typeString("Blockchain Developer")
+              .typeString(t('home.typeWriter.second'))
               .pauseFor(2000)
               .deleteAll()
-              .typeString("Freelancer")
+              .typeString(t('home.typeWriter.third'))
               .pauseFor(2000)
               .deleteAll()
               .start()

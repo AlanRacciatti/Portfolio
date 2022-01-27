@@ -1,0 +1,49 @@
+.language-changer-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    flex-direction: column;
+}
+
+.language-changer-container:hover i {
+    color: #fff;
+}
+
+.language-button {
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+.language-button img {
+    width: 35px;
+}
+
+.language-icon {
+    font-size: 30px;
+}
+
+.language-text {
+    font-size: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.language-changer-list {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .language-changer-container {
+        position: fixed;
+        left: auto;
+        right: 1em;
+        margin: 0;
+    }
+}

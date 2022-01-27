@@ -4,30 +4,27 @@ import hedwigDashboard from '../../../assets/Hedwig-dashboard.PNG'
 
 export const projectsItems = [
     {
-        title: "Hilton Machine",
+        title: "hiltonMachine",
         url: {
             app: "https://hilton-machine.web.app",
             github: "https://github.com/AlanRacciatti/Ethereum-Wave-Portal"
         },
-        img: hiltonMachine,
-        projectDescription: "A minimalist and simple landing page for a grass cutting machine"
+        img: hiltonMachine
     },
     {
-        title: "Hedwig Dashboard",
+        title: "hedwigDashboard",
         url: {
             app: "https://hedwig-dashboard.web.app/",
             github: "https://github.com/AlanRacciatti/Hedwig-Dashboard-React"
         },
-        img: hedwigDashboard,
-        projectDescription: "This dashboard request data from the Hedwig database and shows it with Tables, Charts and Images!"
+        img: hedwigDashboard
     },
     {
-        title: "League of Legends NFT Collection",
+        title: "lolNftCollection",
         url: {
             app: "https://chin-nft-project.web.app/",
             github: "https://github.com/AlanRacciatti/Ethereum-Wave-Portal"
         },
-        img: nftProject,
-        projectDescription: "Wave me from the blockchain with this Ethereum dApp Portal! Remember that you can only Wave once every 15 minutes"
+        img: nftProject
     }
 ]
