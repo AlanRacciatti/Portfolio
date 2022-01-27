@@ -123,7 +123,7 @@ i18n
                         services: {
                             webDesign: {
                                 title: "Diseño web",
-                                description: "Solicitá tu sitio web de alta calidad y comenzá a aparecer en los motores de búsqueda! (ejemplos: promoción de producto/servicio, página de presentación"
+                                description: "Solicitá tu sitio web de alta calidad y comenzá a aparecer en los motores de búsqueda! (ejemplos: promoción de producto/servicio, página de presentación)"
                             },
                             webDevelopment: {
                                 title: "Desarrollo web",
