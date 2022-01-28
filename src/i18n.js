@@ -16,6 +16,7 @@ i18n
             translation: {
                 navbar: {
                     home: "Home",
+                    about: "About",
                     services: "Services",
                     projects: "Projects",
                     contact: "Contact",
@@ -34,7 +35,7 @@ i18n
                         },
                         description: "I started programming at an early age and took it as a hobby. Right now I spend my time making solutions or personal projects. I offer diverse services as a freelancer. Take a look to my projects anytime!",
                         button: {
-                            first: "Services",
+                            first: "Read more",
                             second: "Projects"
                         }
                     },
@@ -72,9 +73,9 @@ i18n
                                 title: "Hedwig Dashboard",
                                 description: "This dashboard requests data from the Hedwig database and shows it with tables, charts, and images!"
                             },
-                            lolNftCollection: {
-                                title: "League Of Legends NFT collection",
-                                description: "Through this website users can mint an unique randomly-generated NFT and show it in the Opensea marketplace"
+                            hedwigLibrary: {
+                                title: "Hedwig Library",
+                                description: "A completely functional ecommerce. It allows users to register and login, as much as adding products to his cart and buying them"
                             }
                         },
                         projectsLink: "See all my projects!"
@@ -93,6 +94,7 @@ i18n
             translation: {
                 navbar: {
                     home: "Inicio",
+                    about: "Acerca de mi",
                     services: "Servicios",
                     projects: "Proyectos",
                     contact: "Contacto",
@@ -111,7 +113,7 @@ i18n
                         },
                         description: "Comencé a programar a temprana edad como un pasatiempo. Actualmente me dedico a crear soluciones o proyectos personales. Ofrezco diversos servicios como freelancer. Echale un vistazo a mis proyectos cuando quieras!",
                         button: {
-                            first: "Servicios",
+                            first: "Leer más",
                             second: "Proyectos"
                         }
                     },
@@ -149,9 +151,9 @@ i18n
                                 title: "Hedwig Dashboard",
                                 description: "Este dashboard solicita información de la base de datos de Hedwig y la muestra mediantes tablas, gráficos e imágenes!"
                             },
-                            lolNftCollection: {
-                                title: "Colección NFT League Of Legends",
-                                description: "A través de este sitio los usuarios pueden minar un NFT aleatorio el cual pueden ver en el marketplace Opensea."
+                            hedwigLibrary: {
+                                title: "Librería Hedwig",
+                                description: "Un E-commerce completamente funcional. Permite a los usuarios registrarse e iniciar sesión, así como añadir productos a su carrito y comprarlos."
                             }
                         },
                         projectsLink: "Mira todos mis proyectos!" 

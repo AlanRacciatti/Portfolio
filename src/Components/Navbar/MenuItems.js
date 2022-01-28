@@ -6,6 +6,12 @@ export const menuItems = [
         cName: 'nav-links'
     },
     {
+        icon: 'fas fa-question-circle',
+        title: 'About',
+        url: '/about',
+        cName: 'nav-links'
+    },
+    {
         icon: 'fas fa-tools',
         title: 'Services',
         url: '/services',

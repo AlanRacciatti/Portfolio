@@ -15,7 +15,7 @@ const AboutSection = () => {
                 <SectionPresentation  heading={t('home.aboutSection.presentation.heading')} mainHeading={t('home.aboutSection.presentation.mainHeading')} />
                 <p className='about-text'>{t('home.aboutSection.description')}</p>
                 <div className="button-container">
-                    <ContainedButton title={t('home.aboutSection.button.first')} url="/services" />
+                    <ContainedButton title={t('home.aboutSection.button.first')} url="/about" />
                     <GhostButton title={t('home.aboutSection.button.second')} url="/projects" />
                 </div>
             </div>
