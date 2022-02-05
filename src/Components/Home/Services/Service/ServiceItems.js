@@ -1,11 +1,11 @@
 export const ServiceItems = [
     {
-        icon: "fas fa-paint-brush",
+        icon: "fas fa-laptop-code",
         title: "webDesign",
         text: "Get your high-quality static website and start showing yourself in the search engines! (e.g., presentation website, landing page)"
     },
     {
-        icon: "fas fa-laptop-code",
+        icon: "fas fa-cog",
         title: "webDevelopment",
         text: "I can create and mantain your interactive website and save +  read data with a database (e.g., e-commerce, blog)"
     },

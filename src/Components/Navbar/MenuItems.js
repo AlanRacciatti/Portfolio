@@ -12,12 +12,6 @@ export const menuItems = [
         cName: 'nav-links'
     },
     {
-        icon: 'fas fa-tools',
-        title: 'Services',
-        url: '/services',
-        cName: 'nav-links'
-    },
-    {
         icon: 'fas fa-tasks',
         title: 'Projects',
         url: '/projects',

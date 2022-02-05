@@ -7,15 +7,15 @@ export const projectsItems = [
         title: "hiltonMachine",
         url: {
             app: "https://hilton-machine.web.app",
-            github: "https://github.com/AlanRacciatti/Ethereum-Wave-Portal"
+            github: "https://github.com/AlanRacciatti/Hilton-Machine"
         },
         img: hiltonMachine
     },
     {
         title: "hedwigLibrary",
         url: {
-            app: "https://chin-nft-project.web.app/",
-            github: "https://github.com/AlanRacciatti/Ethereum-Wave-Portal"
+            app: "https://libreriahedwig.herokuapp.com/",
+            github: "https://github.com/AlanRacciatti/Hedwig-Ecommerce"
         },
         img: hedwigLibrary
     },

@@ -46,16 +46,16 @@ i18n
                         },
                         services: {
                             webDesign: {
-                                title: "Web design",
-                                description: "Get your high-quality website and start showing yourself in the search engines! (e.g., presentation website, landing page)"
+                                title: "Frontend web development",
+                                description: "I can make minimalist and elegant UI's with React.js and work with libraries/tools like i18n, Chart.js, MUI, etc."
                             },
                             webDevelopment: {
-                                title: "Web development",
-                                description: "I can create and mantain your interactive website and save + read data with a database (e.g., e-commerce, blog)"
+                                title: "Backend web development",
+                                description: "I have experience working as a backend developer: Creating REST API's, working with databases and maintaining servers."
                             },
                             blockchainDevelopment: {
                                 title: "Blockchain development",
-                                description: "Dive into blockchain solutions and integrate them in your service! (e.g., manage crypto payments, nft collection portal)"
+                                description: "This is my favorite one! I've made smart contracts with Solidity and deployed them to the blockchain and interacted with them using Ethers.js"
                             }
                         }
                     },
@@ -82,10 +82,10 @@ i18n
                     },
                     contactSection: {
                         presentation: {
-                            heading: "You have the idea",
-                            mainHeading: "I make it real"
+                            heading: "Any doubt?",
+                            mainHeading: "Chat with me"
                         },
-                        contactButton: "Contact me"
+                        contactButton: "Contact"
                     }
                 }
             }
@@ -124,16 +124,16 @@ i18n
                         },
                         services: {
                             webDesign: {
-                                title: "Diseño web",
-                                description: "Solicitá tu sitio web de alta calidad y comenzá a aparecer en los motores de búsqueda! (ejemplos: promoción de producto/servicio, página de presentación)"
+                                title: "Desarrollo web frontend",
+                                description: "Puedo crear interfaces de usuario elegantes y minimalistas. Utilizando variedad de librerías/herramientas como Ethers.js, Chart.js, MUI, etc."
                             },
                             webDevelopment: {
-                                title: "Desarrollo web",
-                                description: "Puedo crear y mantener tu página web interactiva y guardar y mostrar información mediante una base de datos! (ejemplos: blog, e-commerce)"
+                                title: "Desarrollo web backend",
+                                description: "Tengo experiencia trabajando como desarrollador backend. Puedo crear API's REST trabajando con bases de datos y mantener servidores."
                             },
                             blockchainDevelopment: {
                                 title: "Desarrollo blockchain",
-                                description: "Descubrí las soluciones que ofrece la blockchain e integralas en tu servicio! (ejemplo: administrar pagos en criptomonedas, colecciones nft)"
+                                description: "Este es mi favorito! He creado y desplegado smart contracts con Solidity e interactuado con ellos usando Ethers.js"
                             }
                         }
                     },
@@ -160,10 +160,10 @@ i18n
                     },
                     contactSection: {
                         presentation: {
-                            heading: "Vos tenés la idea",
-                            mainHeading: "Yo la hago realidad"
+                            heading: "¿Tenés dudas?",
+                            mainHeading: "Comunicate conmigo"
                         },
-                        contactButton: "Contactame"
+                        contactButton: "Contacto"
                     }
                 }
             }
