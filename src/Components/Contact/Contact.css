@@ -1,0 +1,8 @@
+.contact-container {
+    border: 1px solid #d1d0c5;
+    padding: 20px 0;
+    width: 80%;
+    max-width: 700px;
+    margin: 150px auto 0;
+    border-radius: 10px;
+}

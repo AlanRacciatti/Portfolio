@@ -14,9 +14,8 @@
 .footer-media {
     display: flex;
     list-style-type: none;
-    width: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #000;
     max-width: 800px;
     margin: auto;
@@ -24,6 +23,7 @@
 
 .footer-list-item {
     background-color: #000;
+    padding: 0 5px;
 }
 
 .footer-list-item a {

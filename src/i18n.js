@@ -55,7 +55,7 @@ i18n
                             },
                             blockchainDevelopment: {
                                 title: "Blockchain development",
-                                description: "This is my favorite one! I've made smart contracts with Solidity and deployed them to the blockchain and interacted with them using Ethers.js"
+                                description: "I've made smart contracts with Solidity and deployed them to the blockchain and interacted with them using Ethers.js"
                             }
                         }
                     },
@@ -125,7 +125,7 @@ i18n
                         services: {
                             webDesign: {
                                 title: "Desarrollo web frontend",
-                                description: "Puedo crear interfaces de usuario elegantes y minimalistas. Utilizando variedad de librerías/herramientas como Ethers.js, Chart.js, MUI, etc."
+                                description: "Puedo crear interfaces de usuario elegantes y minimalistas. Utilizando variedad de librerías/herramientas como i18n, Chart.js, MUI, etc."
                             },
                             webDevelopment: {
                                 title: "Desarrollo web backend",
@@ -133,7 +133,7 @@ i18n
                             },
                             blockchainDevelopment: {
                                 title: "Desarrollo blockchain",
-                                description: "Este es mi favorito! He creado y desplegado smart contracts con Solidity e interactuado con ellos usando Ethers.js"
+                                description: "He creado y desplegado smart contracts con Solidity e interactuado con ellos usando Ethers.js"
                             }
                         }
                     },
