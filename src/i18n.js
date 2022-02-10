@@ -87,6 +87,27 @@ i18n
                         },
                         contactButton: "Contact"
                     }
+                },
+                contact: {
+                    presentation: {
+                        heading: "Send me a message!",
+                        mainHeading: "CONTACT"
+                    },
+                    form: {
+                        name: {
+                            label: "Name",
+                            placeholder: "Your name"
+                        },
+                        email: {
+                            label: "Email",
+                            placeholder: "Email"
+                        },
+                        message: {
+                            label: "Message",
+                            placeholder: "Your message"
+                        },
+                        button: "Send me a message"
+                    }
                 }
             }
         },
@@ -164,6 +185,27 @@ i18n
                             mainHeading: "Comunicate conmigo"
                         },
                         contactButton: "Contacto"
+                    }
+                },
+                contact: {
+                    presentation: {
+                        heading: "Envíame un mensaje!",
+                        mainHeading: "CONTACTO"
+                    },
+                    form: {
+                        name: {
+                            label: "Nombre",
+                            placeholder: "Tu nombre"
+                        },
+                        email: {
+                            label: "Email",
+                            placeholder: "Email"
+                        },
+                        message: {
+                            label: "Mensaje",
+                            placeholder: "Tu mensaje"
+                        },
+                        button: "Enviame un mensaje"
                     }
                 }
             }
