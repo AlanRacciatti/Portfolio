@@ -1,8 +1,8 @@
 .presentation-heading {
+    font-size: 18px;
     font-weight: 200;
 }
 
-.main-presentation-heading {
-    font-size: 40px;
+.presentation-main-heading {
     color: #D1D0C5;
 }
