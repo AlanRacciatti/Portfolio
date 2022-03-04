@@ -37,8 +37,8 @@ const ContactForm = () => {
                 <input type="email" className="form-input" placeholder={t('contact.form.email.placeholder')} name="email" required />
             </div>
             <div className="bg-dark">
-                <label className="bg-dark form-label" htmlFor="message">{t('contact.form.name.label')}</label>
-                <textarea placeholder={t('contact.form.name.placeholder')} className="form-input" name="message" required />
+                <label className="bg-dark form-label" htmlFor="message">{t('contact.form.message.label')}</label>
+                <textarea placeholder={t('contact.form.message.placeholder')} className="form-input" name="message" required />
             </div>
             <div className="bg-dark">
                 <button type="submit" className="submit-btn">{t('contact.form.button')}</button>
