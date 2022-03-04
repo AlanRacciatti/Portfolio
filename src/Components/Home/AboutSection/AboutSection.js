@@ -4,6 +4,7 @@ import GhostButton from '../Buttons/GhostButton/GhostButton';
 import ContainedButton from '../Buttons/ContainedButton/ContainedButton';
 import SectionPresentation from '../SectionPresentation/SectionPresentation';
 import { useTranslation } from 'react-i18next';
+import alanImage from '../../../assets/alan.jpg';
 
 const AboutSection = () => {
 
@@ -20,7 +21,7 @@ const AboutSection = () => {
                 </div>
             </div>
             <div className="about-section-right">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQHX960gjf0dkw/profile-displayphoto-shrink_200_200/0/1635898695540?e=1648684800&v=beta&t=QS7sy5UH3VKLDPxLK1ghnAZMDwgrWjgECtUBMGWUoRs" alt="Alan Racciatti" />
+                <img src={alanImage} alt="Alan Racciatti" />
             </div>
         </div>
     )

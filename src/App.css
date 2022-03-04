@@ -23,6 +23,10 @@
     background-color: #232323;
 }
 
+.bg-light {
+    background-color: #D1D0C5
+}
+
 .test {
     text-align: center;
     position: relative;
