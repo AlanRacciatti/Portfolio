@@ -1,0 +1,25 @@
+.about {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-presentation {
+    margin-top: 45px;
+    max-width: 800px;
+    margin: 30px auto 0;
+    font-weight: 200;
+}
+
+.presentation-text-container {
+    margin-bottom: 1em
+}
+
+.presentation-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-presentation-heading {
+    text-align: left;
+}

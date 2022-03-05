@@ -88,6 +88,28 @@ i18n
                         contactButton: "Contact"
                     }
                 },
+                about: {
+                    heading: "Who am I?",
+                    typeWriter: {
+                        first: "Commited - Curious - Disciplined"
+                    },
+                    presentation: {
+                        first: {
+                            heading: "Welcome!",
+                            body: "Hello dear reader! My name is Alan Racciatti and this is the section where I speak a little about me. Feel free to contact me anytime if you have any questions or comments. I'm always happy to answer them!"
+                        },
+                        second: {
+                            heading: "About me",
+                            body: "I'm a curious person. I'm interested in topics like technology, programming, videogames, music (I play the piano 🎹), finances, cryptocurrencies, psychology, Web3, blockchain, etc. I like both giving and receiving help."
+                        },
+                        third: {
+                            body: " I perceive myself as a disciplined person, always ready to learn new things and improve my skills. I'm a person who likes to work in a team and I'm always looking for new challenges and opportunities."
+                        },
+                        fourth: {
+                            body: "In 2021 my friends introduced me into programming and I took it as a hobby, but when I realized how programming changes the world I decided I wanted to be part of it. Actually I work on real projects with great people and I'm always motivated to learn new things and meet new people."
+                        }
+                    }
+                },
                 contact: {
                     presentation: {
                         heading: "Send me a message!",
@@ -185,6 +207,28 @@ i18n
                             mainHeading: "Comunicate conmigo"
                         },
                         contactButton: "Contacto"
+                    }
+                },
+                about: {
+                    heading: "¿Quién soy?",
+                    typeWriter: {
+                        first: "Comprometido - Curioso - Disciplinado"
+                    },
+                    presentation: {
+                        first: {
+                            heading: "¡Bienvenido!",
+                            body: "¡Hola querido lector! Mi nombre es Alan Racciatti y esta es la sección en la que hablo un poco de mi. Sentite libre de contactarme en cualquier momento si tenés alguna pregunta o comentario. Siempre me alegrará responderte!"
+                        },
+                        second: {
+                            heading: "Sobre mí",
+                            body: "Soy una persona curiosa, me interesan tópicos como tecnología, programación, videojuegos, música (toco el piano 🎹), finanzas, criptomonedas, psicología, Web3, blockchain, etc. Me encanta tanto dar como recibir ayuda. "
+                        },
+                        third: {
+                            body: "Me considero una persona disciplinada, siempre lista para adquirir nuevos conocimientos y mejorar mis habilidades. Me gusta trabajar en equipo y siempre estoy buscando nuevos desafíos y oportunidades."
+                        },
+                        fourth: {
+                            body: "En 2021 mis amigos me introducieron en el mundo de la programación y lo tomé como un pasatiempo, pero cuando me di cuenta de como puede cambiar el mundo me di cuenta que quería ser parte de eso. Actualmente trabajo en proyectos reales con personas increíbles y siempre estoy motivado a aprender nuevas cosas y conocer nuevas personas."
+                        }
                     }
                 },
                 contact: {

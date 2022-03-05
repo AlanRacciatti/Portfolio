@@ -1,9 +1,9 @@
 .service-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 15px;
+    height: 230px;
 }
 
 .service-title {
