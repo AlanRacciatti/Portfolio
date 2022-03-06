@@ -36,6 +36,10 @@ const About = () => {
 				<p className="presentation-text">{t("about.presentation.fourth.body")}</p>
 			</div>
 		</div>
+
+		<div className="skills-container">
+			<h1 className="skills-heading">{t("about.presentation.fifth.heading")}</h1>
+		</div>
     </div>
   );
 };

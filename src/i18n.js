@@ -107,6 +107,9 @@ i18n
                         },
                         fourth: {
                             body: "In 2021 my friends introduced me into programming and I took it as a hobby, but when I realized how programming changes the world I decided I wanted to be part of it. Actually I work on real projects with great people and I'm always motivated to learn new things and meet new people."
+                        },
+                        fifth: {
+                            heading: "Skills"
                         }
                     }
                 },
@@ -228,6 +231,9 @@ i18n
                         },
                         fourth: {
                             body: "En 2021 mis amigos me introducieron en el mundo de la programación y lo tomé como un pasatiempo, pero cuando me di cuenta de como puede cambiar el mundo me di cuenta que quería ser parte de eso. Actualmente trabajo en proyectos reales con personas increíbles y siempre estoy motivado a aprender nuevas cosas y conocer nuevas personas."
+                        },
+                        fifth: {
+                            heading: "Skills"
                         }
                     }
                 },
