@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import TypeWriter from "typewriter-effect";
 import { useTranslation } from "react-i18next";
+import Skills from './Skills/Skills';
 
 const About = () => {
   	const { t } = useTranslation();
@@ -39,6 +40,7 @@ const About = () => {
 
 		<div className="skills-container">
 			<h1 className="skills-heading">{t("about.presentation.fifth.heading")}</h1>
+			<Skills />
 		</div>
     </div>
   );

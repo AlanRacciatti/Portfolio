@@ -1,0 +1,25 @@
+.skills-area {
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.skills-cards {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-card {
+    margin: 0 30px;
+}
+
+.skill-img {
+    width: 100px;
+    height: 100px;
+}
+
+.skill-item {
+    font-weight: 200;
+    font-size: 10px;
+}
