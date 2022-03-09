@@ -11,15 +11,26 @@
 }
 
 .skills-card {
-    margin: 0 30px;
+    margin: 0 .5em;
 }
 
 .skill-img {
-    width: 100px;
-    height: 100px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .skill-item {
     font-weight: 200;
     font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-card {
+        margin: 0 1em;
+    }
+
+    .skill-img {
+        width: 2.5em;
+        height: 2.5em;
+    }
 }
