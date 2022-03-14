@@ -15,7 +15,7 @@ const ProjectsSection = () => {
             <SectionPresentation heading={t('home.projectsSection.presentation.heading')} mainHeading={t('home.projectsSection.presentation.mainHeading')} cName="text-center" /> 
             <div className="projects-cards">
             {projectsItems.map((project, index) => {
-                return (
+                return index > 2 ? null : (
                     <ProjectCard key={index} title={t(`home.projectsSection.projects.${project.title}.title`)} url={project.url} projectDescription={t(`home.projectsSection.projects.${project.title}.description`)} img={project.img} />
                 )
             })}

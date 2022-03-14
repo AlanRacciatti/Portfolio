@@ -10,8 +10,8 @@ const ProjectCard = (props) => {
               <h3 className='project-heading hover-effect'>{props.title}</h3>
               <p className="project-text hover-effect">{props.projectDescription}</p>
               <div className='read-more hover-effect'>
-                <InfoButton icon="fas fa-globe" url={props.url.app} />
-                <InfoButton icon="fab fa-github" url={props.url.github} />
+                {props.url.app && <InfoButton icon="fas fa-globe" url={props.url.app} />}
+                {props.url.github && <InfoButton icon="fab fa-github" url={props.url.github} />}
               </div>
           </div>
     </div>

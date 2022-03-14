@@ -47,7 +47,7 @@ i18n
                         services: {
                             webDesign: {
                                 title: "Frontend web development",
-                                description: "I can make minimalist and elegant UI's with React.js and work with libraries/tools like i18n, Chart.js, MUI, etc."
+                                description: "I can make minimalist and elegant UI's with React.js and work with libraries/tools like i18n, Chart.js, Bootrstrap, etc."
                             },
                             webDevelopment: {
                                 title: "Backend web development",
@@ -65,10 +65,6 @@ i18n
                             mainHeading: "PROJECTS"
                         },
                         projects: {
-                            hiltonMachine: {
-                                title: "Hilton Machine",
-                                description: "A minimalist and simple landing page for a grass cutting machine"
-                            },
                             hedwigDashboard: {
                                 title: "Hedwig Dashboard",
                                 description: "This dashboard requests data from the Hedwig database and shows it with tables, charts, and images!"
@@ -76,7 +72,19 @@ i18n
                             hedwigLibrary: {
                                 title: "Hedwig Library",
                                 description: "A completely functional ecommerce. It allows users to register and login, as much as adding products to his cart and buying them"
-                            }
+                            },
+                            axieBot: {
+                                title: "Axie Infinity Bot",
+                                description: "¡Compartí tus estadísticas con tus amigos, mirá el precio de los tokens, y más!"
+                            },
+                            ethereumWavePortal: {
+                                title: "Wave Portal",
+                                description: "Envía tu mensaje a la blockchain de Ethereum a través de un smart contract en la red de Rinkeby"
+                            },
+                            lolNft: {
+                                title: "Lol NFT Portal",
+                                description: "Mintea tu NFT único en este portal e intercambialo en Opensea"
+                            },
                         },
                         projectsLink: "See all my projects!"
                     },
@@ -112,6 +120,9 @@ i18n
                             heading: "Skills"
                         }
                     }
+                },
+                projects: {
+                    heading: "What I do?",
                 },
                 contact: {
                     presentation: {
@@ -171,7 +182,7 @@ i18n
                         services: {
                             webDesign: {
                                 title: "Desarrollo web frontend",
-                                description: "Puedo crear interfaces de usuario elegantes y minimalistas. Utilizando variedad de librerías/herramientas como i18n, Chart.js, MUI, etc."
+                                description: "Puedo crear interfaces de usuario elegantes y minimalistas. Utilizando variedad de librerías/herramientas como i18n, Chart.js, Bootstrap, etc."
                             },
                             webDevelopment: {
                                 title: "Desarrollo web backend",
@@ -189,10 +200,6 @@ i18n
                             mainHeading: "PROYECTOS"
                         },
                         projects: {
-                            hiltonMachine: {
-                                title: "Hilton Machine",
-                                description: "Una landing page simple y minimalista para una máquina de cortar pasto."
-                            },
                             hedwigDashboard: {
                                 title: "Hedwig Dashboard",
                                 description: "Este dashboard solicita información de la base de datos de Hedwig y la muestra mediantes tablas, gráficos e imágenes!"
@@ -200,7 +207,19 @@ i18n
                             hedwigLibrary: {
                                 title: "Librería Hedwig",
                                 description: "Un E-commerce completamente funcional. Permite a los usuarios registrarse e iniciar sesión, así como añadir productos a su carrito y comprarlos."
-                            }
+                            },
+                            axieBot: {
+                                title: "Axie Infinity Bot",
+                                description: "Share your stats with your friends on Discord, check token prices and more!"
+                            },
+                            ethereumWavePortal: {
+                                title: "Wave Portal",
+                                description: "Write your message to the Ethereum blockchain and send it through a smart contract in the Rinkeby network"
+                               },
+                            lolNft: {
+                                title: "Lol NFT Portal",
+                                description: "Mint your unique NFT on this portal and exchange it on Opensea"
+                            },
                         },
                         projectsLink: "Mira todos mis proyectos!" 
                     },
@@ -236,6 +255,9 @@ i18n
                             heading: "Skills"
                         }
                     }
+                },
+                projects: {
+                    heading: "¿Qué hago?",
                 },
                 contact: {
                     presentation: {
