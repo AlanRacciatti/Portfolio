@@ -1,73 +1,73 @@
 .about-heading {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .about-heading-big {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .about-section-right {
-    display: none;
+  display: none;
 }
 
 .about-section-container {
-    margin: 2em 20px 0
+  margin: 2em 20px 0;
 }
 
 .about-img {
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .about-text {
-    color:#D1D0C5;
-    font-weight: 200;
+  color: #d1d0c5;
+  font-weight: 200;
 }
 
 .about-section-left {
-    width: 100%;
+  width: 100%;
 }
 
 .button-container {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .button-container button:first-child {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-section-container {
-        margin-top: 5em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .about-section-container {
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .about-section-left {
-        width: 35%;
-    }
+  .about-section-left {
+    width: 35%;
+  }
 
-    .about-section-right {
-        display: block;
-        width: 35%;
-    }
+  .about-section-right {
+    display: block;
+    width: 35%;
+  }
 
-    .about-section-right img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        max-width: 250px;
-        width: 80%;
-        border: 1px solid #fff;
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-    }
+  .about-section-right img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 250px;
+    width: 80%;
+    border: 1px solid #fff;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 }
