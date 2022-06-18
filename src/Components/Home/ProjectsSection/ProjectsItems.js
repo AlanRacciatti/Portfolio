@@ -18,7 +18,7 @@ export const projectsItems = [
     title: "lolNft",
     url: {
       app: "https://github.com/AlanRacciatti/Lol-NFT-Collection",
-      github: "https://github.com/AlanRacciatti/Axie-Discord-Bot",
+      github: "https://github.com/AlanRacciatti/Lol-NFT-Collection",
     },
     img: nftImg,
   },
