@@ -4,6 +4,7 @@ import axieImg from "../../../assets/descarga.png";
 import lotteryDemo from "../../../assets/lottery-demo.PNG";
 import wavePortalImg from "../../../assets/wave-project.PNG";
 import nftImg from "../../../assets/nft.PNG";
+import coinflipImg from "../../../assets/coinflip.PNG";
 
 export const projectsItems = [
   {
@@ -15,12 +16,12 @@ export const projectsItems = [
     img: hedwigLibrary,
   },
   {
-    title: "lolNft",
+    title: "coinflip",
     url: {
-      app: "https://github.com/AlanRacciatti/Lol-NFT-Collection",
-      github: "https://github.com/AlanRacciatti/Axie-Discord-Bot",
+      app: "https://eth-coinflip.vercel.app",
+      github: "https://github.com/AlanRacciatti/Coinflip",
     },
-    img: nftImg,
+    img: coinflipImg,
   },
   {
     title: "chainlinkLottery",
@@ -29,6 +30,14 @@ export const projectsItems = [
       github: "https://github.com/AlanRacciatti/lottery.eth",
     },
     img: lotteryDemo,
+  },
+  {
+    title: "lolNft",
+    url: {
+      app: "https://github.com/AlanRacciatti/Lol-NFT-Collection",
+      github: "https://github.com/AlanRacciatti/Axie-Discord-Bot",
+    },
+    img: nftImg,
   },
   {
     title: "hedwigDashboard",

@@ -74,6 +74,10 @@ i18n
                   description:
                     "This dashboard requests data from the Hedwig database and shows it with tables, charts, and images!",
                 },
+                coinflip: {
+                  title: "Coinflip",
+                  description: "Flip the coin and duplicate your ETH betted!",
+                },
                 chainlinkLottery: {
                   title: "Chainlink Lottery",
                   description:
@@ -222,6 +226,10 @@ i18n
                   title: "Hedwig Dashboard",
                   description:
                     "Este dashboard solicita información de la base de datos de Hedwig y la muestra mediantes tablas, gráficos e imágenes!",
+                },
+                coinflip: {
+                  title: "Coinflip",
+                  description: "Gira la moneda y duplica tu apuesta en ETH!",
                 },
                 chainlinkLottery: {
                   title: "Chainlink Lottery",
