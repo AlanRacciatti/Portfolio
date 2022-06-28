@@ -17,9 +17,6 @@ npm start
 ### Project status
 This project is in development, in this week it is going to be frequently updated.
 
-### Contributing
-Given the fact that this is a portfolio I'm not accepting any pull request. Anyways, you can contribute with my others [open-source projects in GitHub](https://github.com/AlanRacciatti)
-
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
